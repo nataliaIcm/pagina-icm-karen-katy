@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medios y Tecnología</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <style>
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Encabezado */
+        header {
+            background: linear-gradient(135deg, #F87C63, #0056b3);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        /* Navegación Principal */
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #222;
+            padding: 10px 0;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            padding: 12px 15px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: 0.3s;
+            margin: 0 5px; 
+            font-size: 14px; 
+        }
+
+        nav a:hover {
+            background: #F87C63
+;
+            border-radius: 5px;
+        }
+
+        /* Contenedor principal */
+        .container {
+            padding: 30px;
+            max-width: 1100px; 
+            margin: auto;
+        }
+
+        /* Secciones */
+        .section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .section:hover {
+            transform: scale(1.01); 
+        }
+
+        .section h2 {
+            color: ##F87C63;
+            font-size: 24px;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        
+        .section h3 {
+            color: #C82909;
+            font-size: 18px;
+            margin-top: 25px;
+            border-left: 4px solid #C82909;
+            padding-left: 10px;
+        }
+        
+        /* Estilos para el formulario */
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+        }
+
+        .form-group button {
+            background-color: #C82909;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .form-group button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Estilos para el espacio de imágenes */
+        .image-placeholder {
+            min-height: 250px;
+            background-color: #e9ecef;
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #6c757d;
+            font-style: italic;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            text-align: center;
+            font-weight: 500;
+            padding: 10px;
+        }
+        
+        .image-placeholder img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+        }
+
+        /* Pie de página */
+        footer {
+            background: #F87C63;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+
+        
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav a {
+                width: 90%;
+            }
+
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+       Medios y Tecnología <br> Palacios Ramírez Ana Karen <br> Gualito Vera Catherine Abigail <br> 2641
+    </header>
+    
+    <nav>
+        <a href="#medios">Antecedentes de los Medios de Comunicación</a>
+        <a href="#audio">Compresión de Audio</a>
+        <a href="#digital">Compresión de Imagenes</a>
+        <a href="#redes">Redes y Sistema</a>
+        <a href="#compresion">Algoritmos de Compresión</a>
+        <a href="#formulario">Formulario</a>
+    </nav>
+    
+    <div class="container">
+        
+        <section id="medios" class="section">
+            <h2>Antecedentes de los Medios de Comunicación</h2>
+            
+            <h3 id="prensa">1.1 Prensa</h3>
+            <p>La Prensa se refiere a todos los medios de comunicación escritos, incluyendo periódicos, revistas y boletines. Históricamente, fue el primer medio masivo de difusión. Su función principal es la difusión de información, la opinión pública y el debate sobre asuntos de interés general. Actualmente, convive con formatos digitales.
+			La Prensa moderna evolucionó con la invención de la imprenta de tipos móviles. Hoy, su formato digital ha transformado su consumo, permitiendo la hipertextualidad y la interactividad con el lector. Su relevancia se mantiene en el periodismo de investigación y la fiscalización del poder, sirviendo como un pilar fundamental en las democracias.</p>
+			<center>
+<img src="https://www.gaceta.udg.mx/wp-content/uploads/2022/11/primeras-planas-696x444-1.jpg" style="max-width: 30%; height: auto;"> </center> <br>
+            
+            <h3 id="cine">1.2 Cine</h3>
+            <p>El Cine (o cinematografía) es una técnica y un arte que consiste en proyectar fotografías de forma sucesiva para crear la ilusión de movimiento. Utiliza el lenguaje audiovisual para contar historias, transmitir mensajes y crear experiencias estéticas. Es uno de los principales medios de entretenimiento y cultura. Desde el punto de vista tecnológico, el cine se fundamenta en el fenómeno de la persistencia retiniana y el efecto phi, que hacen que una sucesión rápida de imágenes fijas (generalmente 24 fotogramas por segundo) se perciba como movimiento continuo. Los avances clave incluyen la transición del cine mudo al sonoro y, más recientemente, el paso del celuloide a la captura y proyección digital (DCP).</p>
+			<center>
+<img src="https://www.ladobe.com.mx/wp-content/uploads/2018/04/Cine-Por-FICM-2012.jpg" style="max-width: 30%; height: auto;"> </center> <br>
+            
+            <h3 id="radio">1.3 Radio</h3>
+            <p>La Radio es un medio de comunicación que se basa en la transmisión de señales de audio a través de ondas electromagnéticas. Es uno de los medios más antiguos y de mayor alcance, ya que no requiere alfabetización y es muy accesible. Opera mediante modulación (AM o FM) para llevar información y entretenimiento.
+			La transmisión de radio requiere el uso de una onda portadora de alta frecuencia para transportar la señal de audio (la información). Los dos tipos principales de modulación son: <br>
+				<b>Amplitud Modulada (AM): </b> La amplitud de la onda portadora varía con la señal de audio. Es más susceptible al ruido, pero tiene mayor alcance. <br>
+				<b>Frecuencia Modulada (FM): </b>La frecuencia de la onda portadora varía con la señal de audio. Ofrece mayor fidelidad y resistencia al ruido, pero menor alcance.</p>
+			<center>
+<img src="https://i.pinimg.com/originals/b1/a7/e6/b1a7e62708f2af3304e1d2906184541a.png" style="max-width: 30%; height: auto;"> </center> <br>
+
+            <h3 id="television">1.4 Televisión</h3>
+            <p>La Televisión (TV) es un sistema que transmite y recibe imágenes en movimiento y sonido a distancia. Combina los elementos visuales del cine con la inmediatez de la radio. Ha evolucionado desde la transmisión analógica hasta formatos digitales como la Alta Definición (HD) y las plataformas de streaming. La televisión opera capturando la luz, dividiéndola en tres colores primarios (rojo, verde y azul), y convirtiendo esa información de intensidad en una señal eléctrica. En la televisión digital moderna, esta señal se comprime usando códecs (como H.264 o H.265) y se transmite por aire (TDT), cable o Internet (IPTV o streaming).</p>
+			<center>
+<img src="https://www.surrey.ac.uk/sites/default/files/styles/image_gallery/public/2023-05/TV%20Studio%201.jpg?itok=RAGR2Bg7" style="max-width: 30%; height: auto;"> </center> <br>
+        </section>
+
+        <section id="audio" class="section">
+            <h2>Compresión de Audio</h2>
+            
+            <h3 id="audio_digital">2.1 Audio Digital</h3>
+            <p>El Audio Digital es la representación de una onda sonora continua (analógica) mediante una secuencia de números binarios. Este proceso se logra a través de la Conversión Analógica-Digital (ADC), que toma muestras de la onda a intervalos regulares (frecuencia de muestreo) y cuantifica su amplitud. El proceso de Conversión Analógica-Digital (ADC) se define por dos parámetros cruciales: <br>
+				<b>Frecuencia de Muestreo (Sampling Rate):</b> La cantidad de veces por segundo que se mide la amplitud de la onda. Según el Teorema de Nyquist, debe ser al menos el doble de la frecuencia más alta que se desea grabar (ej. 44.1 kHz para audio de calidad CD, el doble del límite de la audición humana de 20 kHz).  <br>
+				<b>Profundidad de Bits (Bit Depth):</b> El número de bits usados para codificar cada muestra, determinando el rango dinámico (la diferencia entre el sonido más bajo y el más alto sin ruido) y el nivel de ruido de cuantificación.</p>
+            <center>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt3WE-Elm_-n7gD4yYI5iazVcPjoso6qXYZQ&s" style="max-width: 30%; height: auto;"> </center> <br>
+			
+            <h3 id="sonido">2.2 Sonido</h3>
+            <p>El Sonido es una sensación percibida por el oído, causada por la vibración de un medio elástico (como el aire) que se propaga en forma de onda. Se caracteriza por su intensidad (volumen), tono (frecuencia) y timbre. Físicamente, el sonido es una onda de presión longitudinal que requiere un medio material para propagarse. La velocidad del sonido es constante en un medio dado (aproximadamente 343 m/s en el aire seco a 20°C). El oído humano puede percibir frecuencias entre 20 Hz y 20,000 Hz.</p>
+			<center>
+<img src="https://revistardenergia.com/wp-content/uploads/2020/05/IMG_20200510_234856.jpg" style="max-width: 30%; height: auto;"> </center> <br>
+
+            <h3 id="acustica">2.3 Acústica</h3>
+            <p>La Acústica es la rama de la física que estudia el sonido, el infrasonido y el ultrasonido. Analiza su producción, transmisión, almacenamiento y percepción. En tecnología, se aplica al diseño de espacios (salas de concierto) y a la ingeniería de audio. Dentro de la acústica, la acústica arquitectónica estudia cómo el diseño de un espacio afecta la calidad del sonido, centrándose en el tiempo de reverberación (el tiempo que tarda el sonido en decaer 60 dB). La acústica psicoacústica estudia cómo el oído y el cerebro perciben el sonido.</p>
+			<center>
+<img src="https://thehouserecords.com/wp-content/uploads/2021/11/%C2%BFQue-Es-La-Acustica-Y-%C2%BFPara-Que-Sirve-En-La-Musica.png" style="max-width: 30%; height: auto;"> </center> <br>
+
+            <h3 id="amplitud">2.4 Amplitud</h3>
+            <p>La Amplitud de una onda sonora es la medida de la variación máxima del desplazamiento o presión de las partículas del medio. En términos de percepción, la amplitud está directamente relacionada con la intensidad o volumen del sonido. La amplitud se mide en Decibelios (dB), que es una unidad logarítmica que compara la intensidad de un sonido con un nivel de referencia. Un aumento de 10 dB suele ser percibido como el doble de fuerte por el oído humano.</p>
+			<center>
+<img src="https://ilp-media.wgbh.org/filer_public/65/0e/650ef062-49aa-4ff4-a1af-ced5cccaff9a/amplitude_diagram-2020-06-01-es2.png" style="max-width: 30%; height: auto;"> </center> <br>
+
+            <h3 id="frecuencia">2.5 Frecuencia</h3>
+            <p>La Frecuencia es la medida de cuántas veces se repite un ciclo de onda en un segundo. Se mide en Hercios (Hz). En el sonido, la frecuencia determina el tono: las frecuencias bajas producen tonos graves y las altas, tonos agudos. La frecuencia se asocia con el periodo (T), que es el tiempo que tarda una onda en completar un ciclo. La relación es: f = 1/T. Las frecuencias fuera del rango audible son el infrasonido (muy bajas) y el ultrasonido (muy altas).</p>
+			<center>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAERZ9DO2gKO-iNUMDXcOY8Qah8v8vxGGNrw&s" style="max-width: 30%; height: auto;"> </center> <br>
+            
+            <h3 id="formatos_audio">2.6 Formatos de Audio</h3>
+            <p>Los Formatos de Audio son contenedores o estructuras de archivo que definen cómo se almacena el audio digital. Se dividen principalmente en:
+Sin pérdida (Lossless): WAV, FLAC (preservan toda la calidad original). <br>
+Con pérdida (Lossy): MP3, AAC (reducen el tamaño eliminando datos menos perceptibles).</p>
+			<center>
+<img src="https://elblogdemultimediatam.wordpress.com/wp-content/uploads/2020/03/convert-audio-to-mp3-logo.jpg" style="max-width: 30%; height: auto;"> </center> <br>
+        </section>
+
+        <section id="digital" class="section">
+            <h2>Compresión de Imagenes</h2>
+            
+            <h3 id="introduccion_digital">3.1 Introducción al Pensamiento Digital</h3>
+            <p>El Pensamiento Digital es la comprensión de que la información (texto, imágenes, audio) puede ser representada, manipulada y transmitida mediante un sistema discreto, generalmente el sistema binario (ceros y unos). Esto permite que la información sea procesada por máquinas de manera precisa y eficiente.</p>
+			<center>
+<img src="https://aprendeinformaticas.com/wp-content/uploads/2023/02/compresion-de-archivos-1.jpg" style="max-width: 30%; height: auto;"> </center> <br>
+
+            <h3 id="procesamiento_digital">3.2 Procesamiento Digital</h3>
+            <p>El Procesamiento Digital es la manipulación de señales o datos discretos (digitales) utilizando algoritmos matemáticos en una computadora. En la multimedia, esto incluye tareas como la edición de imágenes, la aplicación de filtros de audio o la compresión de video.</p>
+			<center>
+<img src="https://www.getxplor.com/wp-content/uploads/2023/04/procesamiento-de-la-informacion-2.jpg" style="max-width: 30%; height: auto;"> </center> <br>
+
+            <h3 id="imagenes_digitales">3.3 Imágenes Digitales</h3>
+            <p>Las Imágenes Digitales son representaciones bidimensionales de información visual codificadas como una matriz de puntos discretos. Son la base de la fotografía digital, los gráficos por computadora y el video. Las imágenes digitales se clasifican en: <br>
+<b>Imágenes Rasterizadas (Bitmap):</b> Basadas en una rejilla de píxeles (ej. fotos, JPEG, PNG). Su calidad depende de la resolución. <br>
+	<b>Imágenes Vectoriales:</b> Basadas en fórmulas matemáticas y líneas geométricas (ej. logotipos, SVG). Son escalables sin pérdida de calidad.</p>
+			<center>
+<img src="https://conecta.tec.mx/sites/default/files/2025-10/herramientas-digitales-edutools-tec-de-monterrey.webp" style="max-width: 30%; height: auto;"> </center> <br>
+            
+            <h3 id="pixel">3.4 Píxel</h3>
+            <p>El Píxel (del inglés Picture Element) es la unidad mínima de información que compone una imagen digital. Es un pequeño punto cuadrado al que se le asigna un color específico y un valor de brillo. La calidad de una imagen está determinada por la cantidad y la densidad de sus píxeles. Un píxel tiene tres componentes principales para definir el color, típicamente bajo el modelo RGB (Rojo, Verde, Azul). Una profundidad de color de 24 bits (8 bits por canal) permite $2^{24}$ colores, que son más de 16 millones de tonos, a menudo denominado "Color Verdadero".</p>
+			<center>
+<img src="https://www.cavsi.com/espanol/wp-content/uploads/pixel-definicion.jpg" style="max-width: 30%; height: auto;"> </center> <br>
+             
+            <h3 id="propiedades_imagen_digital">3.5 Propiedades de la Imagen Digital</h3>
+            <p>Las principales propiedades que definen la calidad y el tamaño de una imagen digital incluyen: <br>
+
+Resolución: La cantidad total de píxeles (ancho x alto). <br>
+Profundidad de Color: La cantidad de bits usados para almacenar el color de cada píxel, lo que determina la gama de colores que puede representar (ej. 8 bits, 24 bits). <br>
+Formato de Archivo: El tipo de contenedor (JPEG, PNG, GIF) que define el método de compresión y metadatos.</p>
+			<center>
+<img src="https://beconnected.esafety.gov.au/pluginfile.php/76370/mod_resource/content/2/images/t32_c2_a1_p4@2x.png" style="max-width: 30%; height: auto;"> </center> <br>
+        </section>
+
+        <section id="redes" class="section">
+            <h2>Redes de Computadoras y Componentes de Sistema</h2>
+            
+            <h3 id="redes_computadoras">4.1 Redes de Computadoras</h3>
+            <p>Una Red de Computadoras es un conjunto de dispositivos interconectados (computadoras, servidores, impresoras, etc.) que pueden comunicarse entre sí y compartir recursos. La interconexión se logra mediante cables (Ethernet) o de forma inalámbrica (Wi-Fi), y se rige por protocolos como TCP/IP.</p>
+            <center>
+<img src="https://5115875.fs1.hubspotusercontent-na1.net/hubfs/5115875/Blog/Blog_Articulos/Blog_Art%C3%ADculos/Blog_Articulos_2023_Junio/Blog_Articulos_2023_Junio_Art35_REDI/Que-es-la-red-informatica-y-para-que-sirve.png" style="max-width: 30%; height: auto;"> </center> <br>
+            
+            <h3 id="funcionamiento">4.2 Funcionamiento</h3>
+            <p>El Funcionamiento de una red se basa en el envío de paquetes de datos de un nodo a otro. Los protocolos (reglas de comunicación) aseguran que la información se envíe, se reciba y se reensamble correctamente. El funcionamiento de Internet se basa en la conmutación de paquetes, donde los datos se dividen en pequeñas unidades (paquetes) que viajan de forma independiente por la red y se reensamblan en el destino. Esto permite una utilización más eficiente del ancho de banda y mayor robustez ante fallos.</p>
+			<center>
+<img src="https://repositorio-uapa.cuaed.unam.mx/repositorio/moodle/pluginfile.php/2783/mod_resource/content/1/UAPA-Fundamentos-Redes-Computadoras/img/red_funcionamiento.svg" style="max-width: 30%; height: auto;"> </center> <br>
+            
+            <h3 id="sistema">4.3 Sistema</h3>
+            <p>Un Sistema (en el contexto informático) se refiere a un conjunto de partes interrelacionadas que trabajan juntas para lograr un objetivo. Típicamente, está compuesto por: <br>
+				<b>Hardware: </b>Componentes físicos (CPU, memoria, disco duro). <br>
+				<b>Software:</b> Programas e instrucciones (Sistema Operativo, aplicaciones).</p>
+			<center>
+<img src="https://www.plotandesign.com/wp-content/uploads/2016/02/componentes-de-una-red.jpg" style="max-width: 30%; height: auto;"> </center> <br>
+        </section>
+        
+        <section id="compresion" class="section">
+            <h2>Algoritmos de Compresión</h2>
+            
+            <h3 id="compresion_datos">5.1 Compresión de Datos</h3>
+            <p>La Compresión de Datos es un proceso que reduce la cantidad de espacio requerido para almacenar o transmitir datos. Esto se logra mediante la eliminación de redundancias o el uso de codificaciones más eficientes. Su objetivo es optimizar el uso de los recursos de almacenamiento y ancho de banda. La compresión utiliza algoritmos de codificación que buscan expresar la misma información con menos símbolos. Un método común es la codificación de entropía (como la codificación Huffman o la codificación aritmética), que asigna códigos más cortos a los datos que aparecen con más frecuencia.</p>
+			<center>
+<img src="https://media.istockphoto.com/id/1303715147/es/vector/archivo-organizado-b%C3%BAsqueda-de-archivos-en-la-base-de-datos-gesti%C3%B3n-de-registros-registros-y.jpg?s=612x612&w=0&k=20&c=WXX2VS42CyJO80CWlVJQ4RNf8a-xPquB5AerWM2Xm0Y=" style="max-width: 30%; height: auto;"> </center> <br>
+            
+            <h3 id="que_es_compresion">5.2 ¿Qué es y cómo es posible?</h3>
+            <p>La compresión es posible porque la mayoría de los datos contienen redundancia (información repetida o innecesaria). Los algoritmos de compresión buscan patrones o información que se pueda codificar de forma más corta y compacta para luego ser reconstruida (descomprimida) por el receptor. El principio fundamental es la eliminación de la redundancia estadística. Por ejemplo, en un texto, ciertas letras aparecen más que otras. Si usamos códigos binarios más cortos para las letras comunes, el archivo total se reduce.</p>
+			<center>
+<img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/ECHMTN35IVEZHHQJM56G2LGKR4.jpg" style="max-width: 30%; height: auto;"> </center> <br>
+            
+            <h3 id="tipos_compresion">5.3 Tipos de Compresión (Lossless y Lossy)</h3>
+            <p>Existen dos categorías principales: <br>
+				<b>Sin Pérdida (Lossless):</b> Permite reconstruir los datos originales de forma exacta. Se utiliza cuando la integridad es vital (texto, archivos ejecutables). Ejemplos: ZIP, PNG. <br>
+<b>Con Pérdida (Lossy):</b>  Elimina datos considerados menos importantes o no perceptibles para el ser humano. Logra mayor reducción, pero la calidad original no se puede recuperar. Se usa en multimedia (audio y video). Ejemplos: JPEG, MP3.</p>
+			<center>
+<img src="https://www.emezeta.com/weblog/formatos-audio/lossy-lossless.png" style="max-width: 30%; height: auto;"> </center> <br>
+
+            <h3 id="terminologia">5.4 Terminología Clave</h3>
+            
+            <h4 id="codec">Codec</h4>
+            <p>Un Codec (Coder-Decoder) es un dispositivo o programa de computadora capaz de codificar un flujo de datos o señal (para transmisión, almacenamiento o cifrado) y decodificarlo posteriormente para su reproducción o edición. Es esencial para la compresión de video y audio.</p>
+			<center>
+<img src="https://www.giztele.com/wp-content/uploads/2018/03/princ-1024x768.jpg" style="max-width: 30%; height: auto;"> </center> <br>
+            
+            <h4 id="modulacion">Modulación</h4>
+            <p>La Modulación es el proceso de modificar una propiedad de una onda portadora (como su amplitud o frecuencia) con la señal de información que se desea transmitir. Esto permite que la señal se propague de manera eficiente a través de diferentes medios (clave en radio y comunicaciones inalámbricas).</p>
+			<center>
+<img src="https://miro.medium.com/1*ve5F4dsVMv_2ZQrurkmspw.png" style="max-width: 30%; height: auto;"> </center> <br>
+            
+            <h4 id="operador_inverso">Operador Inverso</h4>
+            <p>Un Operador Inverso es una función o proceso que revierte el efecto de otro operador o proceso. En el contexto digital, la descompresión actúa como el operador inverso de la compresión, revirtiendo el algoritmo para recuperar la señal o datos originales.</p>
+            
+            <h4 id="ampliacion_espacial">Ampliación Espacial</h4>
+            <p>La Ampliación Espacial es un concepto relacionado con el procesamiento de imágenes, específicamente con la resolución o el tamaño. Se refiere a los métodos utilizados para aumentar digitalmente el tamaño de una imagen (zoom o upscaling), generalmente mediante la interpolación de píxeles para generar nueva información y rellenar los huecos.</p>
+			</section>
+        
+       <section id="formulario" class="section">
+    <h2>Formulario de Contacto</h2>
+
+    <form action="formulario.php" method="POST">
+
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="Nombre" required>
+        </div>
+
+        <div class="form-group">
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="Correo_electronico" required>
+        </div>
+
+        <div class="form-group">
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" name="Telefono" required>
+        </div>
+
+        <div class="form-group">
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="Comentarios" required></textarea>
+        </div>
+        
+        <div class="form-group">
+             <button type="submit">Enviar</button>
+        </div>
+       
+    </form>
+</section>
+    </div>
+
+    <footer>
+        &copy; 2025 Información sobre Medios y Tecnología
+    </footer>
+
+</body>
+</html>
